@@ -4,3 +4,4 @@ dist/
 src/api/key.ts
 # This project uses `pnpm` for package management
 package-lock.json
+src/api/key.js

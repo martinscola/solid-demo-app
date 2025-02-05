@@ -71,10 +71,10 @@ export default function NavDrawer(props) {
         zIndex={105}
         alpha={props.showWidgets ? 1 : 0.01}
       >
-        <Text x={80} fontSize={28} color={0xf6f6f644}>
-          Built With:
+        <Text x={10} y={22} fontSize={28} color={0xf6f6f644}>
+          Edited By:
         </Text>
-        <View y={22} src="./assets/solidWord.png" width={280} height={52} />
+        <View x={150} y={1} src="./assets/mars-multimedia-logo.png" width={80} height={80} />
 
         <View x={0} y={110} src="./assets/tmdb.png" width={80} height={41} />
         <Text

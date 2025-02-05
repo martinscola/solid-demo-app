@@ -13,7 +13,13 @@ import { INode } from "@lightningtv/solid";
 import { LazyUp } from "@lightningtv/solid/primitives";
 
 export function Thumbnail(props: IntrinsicNodeProps) {
-  return <View {...props} style={styles.Thumbnail} />;
+  return (
+    <View {...props} style={styles.Thumbnail}>
+      <Text style={styles.ThumbnailTitle}>
+        {typeof props.title === 'string' ? props.title : "No title"}
+      </Text>
+    </View>
+  );
 }
 
 export function FocusRing(props: IntrinsicNodeProps) {
@@ -28,7 +34,12 @@ export interface TileRowProps extends IntrinsicNodeProps {
 export function TileRow(props: TileRowProps) {
   return (
     <Row {...props} style={styles.Row}>
-      <Index each={props.items}>{(item) => <Thumbnail {...item} />}</Index>
+      <Index each={props.items}>
+        {(item) => {
+          const { heroContent, ...thumbnailProps } = item();
+          return <Thumbnail {...thumbnailProps} />;
+        }}
+      </Index>
     </Row>
   );
 }

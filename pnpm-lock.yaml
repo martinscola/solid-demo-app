@@ -11,7 +11,7 @@ overrides:
 
 patchedDependencies:
   '@solidjs/router':
-    hash: hnhvc47baca25dviao74hiryf4
+    hash: f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615
     path: patches/@solidjs__router.patch
 
 importers:
@@ -35,16 +35,16 @@ importers:
         version: 1.0.0
       '@lightningtv/solid':
         specifier: 2.6.2
-        version: 2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4))(solid-js@1.9.4)
+        version: 2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4))(solid-js@1.9.4)
       '@lightningtv/solid-ui':
         specifier: ^1.0.0
-        version: 1.0.0(@lightningtv/core@2.6.2(@lightningjs/renderer@2.9.0))(@lightningtv/solid@2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4))(solid-js@1.9.4))(solid-js@1.9.4)
+        version: 1.0.0(@lightningtv/core@2.6.2(@lightningjs/renderer@2.9.0))(@lightningtv/solid@2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4))(solid-js@1.9.4))(solid-js@1.9.4)
       '@solid-primitives/scheduled':
         specifier: ^1.4.4
         version: 1.4.4(solid-js@1.9.4)
       '@solidjs/router':
         specifier: ^0.15.3
-        version: 0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4)
+        version: 0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4)
       browserlist:
         specifier: ^1.0.1
         version: 1.0.1
@@ -3207,22 +3207,22 @@ snapshots:
 
   '@lightningtv/l3-ui-theme-base@1.0.0': {}
 
-  '@lightningtv/solid-ui@1.0.0(@lightningtv/core@2.6.2(@lightningjs/renderer@2.9.0))(@lightningtv/solid@2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4))(solid-js@1.9.4))(solid-js@1.9.4)':
+  '@lightningtv/solid-ui@1.0.0(@lightningtv/core@2.6.2(@lightningjs/renderer@2.9.0))(@lightningtv/solid@2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4))(solid-js@1.9.4))(solid-js@1.9.4)':
     dependencies:
       '@lightningjs/renderer': 2.9.0
       '@lightningtv/core': 2.6.2(@lightningjs/renderer@2.9.0)
-      '@lightningtv/solid': 2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4))(solid-js@1.9.4)
+      '@lightningtv/solid': 2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4))(solid-js@1.9.4)
       '@solid-primitives/refs': 1.0.8(solid-js@1.9.4)
       solid-js: 1.9.4
 
-  '@lightningtv/solid@2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4))(solid-js@1.9.4)':
+  '@lightningtv/solid@2.6.2(@lightningjs/renderer@2.9.0)(@solidjs/router@0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4))(solid-js@1.9.4)':
     dependencies:
       '@lightningjs/renderer': 2.9.0
       '@lightningtv/core': 2.6.2(@lightningjs/renderer@2.9.0)
       '@solid-primitives/event-listener': 2.3.3(solid-js@1.9.4)
       '@solid-primitives/mouse': 2.0.21(solid-js@1.9.4)
       '@solid-primitives/scheduled': 1.4.4(solid-js@1.9.4)
-      '@solidjs/router': 0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4)
+      '@solidjs/router': 0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4)
       solid-js: 1.9.4
 
   '@lightningtv/vite-hex-transform@1.1.0(terser@5.37.0)':
@@ -3343,7 +3343,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.4
 
-  '@solidjs/router@0.15.3(patch_hash=hnhvc47baca25dviao74hiryf4)(solid-js@1.9.4)':
+  '@solidjs/router@0.15.3(patch_hash=f7bb4a418fb6efb9a659bd0022fdb925bdd84911bd53efe26e1ba4016a1d8615)(solid-js@1.9.4)':
     dependencies:
       solid-js: 1.9.4
 

@@ -4,6 +4,7 @@ import {
   hexColor,
 } from "@lightningtv/solid";
 import theme from "theme";
+import { Thumbnail } from './components';
 
 // Augment existing intrinsic style prop interfaces to include our own
 // app-specific states
@@ -66,6 +67,16 @@ export default {
     border: { width: 0, color: 0x00000000 },
     $focus: { scale: 1.1, border: { color: '#2c4f7cE8', width: 8 } },
   },
+  ThumbnailTitle: {
+    width: 185,
+    height: 40,
+    x: 0,
+    y: 278,
+    contain: "width",
+    maxLines: 2,
+    fontSize: 22,
+    textAlign: "center",
+  } satisfies IntrinsicTextNodeStyleProps,
   FocusRing: {
     borderRadius: 16,
     width: 194,
